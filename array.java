@@ -16,15 +16,16 @@
 // }
 
 import java.util.Scanner;
- class array{
+class array{
     public static void main(String args[]){
         Scanner scan = new Scanner(System.in);
-        int[] marks = new int[5];
+        int[] num = new int[5];
         for(int i=0;i<5;i++){
-            marks[i] = scan.nextInt();
+            num[i]= scan.nextInt();
+
         }
         for(int i=0;i<5;i++){
-            System.out.print(marks[i]);
+            System.out.println(num[i]);
         }
     }
- }
+}
