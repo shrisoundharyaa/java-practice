@@ -1,3 +1,4 @@
+package practice;
 public class multi {
     int muiti(int a,int b){
         return a*b;

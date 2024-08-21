@@ -1,3 +1,4 @@
+package practice;
 public class Addition{
     int a = 45;
     int b = 34;
