@@ -28,7 +28,7 @@ public class max11 {
 
     // Function to find the maximum product of any two items
     public static int maxProduct(int[] items) {
-        int maxProduct = Integer.MIN_VALUE;
+        int maxProduct = 0;
 
         // Iterate through all pairs of items and calculate their product
         for (int i = 0; i < items.length; i++) {
