@@ -13,3 +13,4 @@ public class EMI {
      System.out.println(emi);
     }
 }
+
