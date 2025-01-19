@@ -13,5 +13,6 @@ public class reverse {
             temp = temp/10;
           }
           System.out.println(rev);
+          scan.close();
     }
 }

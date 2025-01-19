@@ -21,5 +21,6 @@ public class nested {
             }
             default -> System.out.println("enter a valid id");
            }
+           scan.close();
       }
 }

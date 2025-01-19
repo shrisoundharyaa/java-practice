@@ -6,6 +6,7 @@ public class prime {
         Scanner scan = new Scanner(System.in);
         int a = scan.nextInt();
         find_prime(a);
+        scan.close();
 
     }
     static void find_prime(int n){
@@ -24,5 +25,6 @@ public class prime {
             
         }
         System.out.println("it is a prime number ");
+        
     }
 }

@@ -16,11 +16,14 @@ public class func_sum {
         System.out.print("enter the num 2: ");
         int num2 = scan.nextInt();
         int sum = num1 + num2;
+        scan.close();
         return sum;
+        
     }
     static String greet(){
         Scanner scan = new Scanner(System.in);
         String greeting = scan.nextLine();
+        scan.close();
         return greeting;
     }
     static void sum(){
@@ -31,5 +34,6 @@ public class func_sum {
         int num2 = scan.nextInt();
         int sum = num1 + num2;
         System.out.println(sum);
+        scan.close();
     }
 }

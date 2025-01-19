@@ -16,5 +16,7 @@ public class counting_occu {
             temp = temp/10;
         }
         System.out.printf("ocuurance of %d is %d",n,count);
+
+        scan.close();
     }
 }  

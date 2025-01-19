@@ -35,7 +35,7 @@ public class Inputs {
         boolean flag = scan.nextBoolean(); // Reads a boolean value
         System.out.println("You entered: " + flag);
        
-
+        scan.close();
 
     }
 }

@@ -7,5 +7,6 @@ public class Sum {
         int b = scan.nextInt();
         int sum = a + b;
         System.out.println("Sum = " + sum);
+        scan.close();
     }
 }

@@ -10,6 +10,6 @@ public class Low_up {
      else{
         System.out.println("uppercase");
      }
-
+     scan.close();
     }
 }

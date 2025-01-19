@@ -34,6 +34,7 @@ public class Largest_number {
 
         int max = Math.max(c, Math.max(a,b));
         System.out.println("largest number is " + max);
+        scan.close();
 
     }
 }

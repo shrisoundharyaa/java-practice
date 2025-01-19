@@ -23,7 +23,7 @@ public class fibi {
        }
        System.out.println(y);
     }
-     
+    scan.close();
     }
 }
  

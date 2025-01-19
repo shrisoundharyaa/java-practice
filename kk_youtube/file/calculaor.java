@@ -38,7 +38,7 @@ public class calculaor {
         System.out.println("answer is: " + ans);
       }
 
-
+      scan.close();
     }
     
 }

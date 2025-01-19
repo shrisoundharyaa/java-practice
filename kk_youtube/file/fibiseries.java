@@ -16,5 +16,6 @@ public class fibiseries {
           y = z;
           count ++;
        }
+       scan.close();
     }
 }

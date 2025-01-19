@@ -32,5 +32,7 @@ public class describe_fruit {
         };
 
         System.out.println(result);
+        scan.close();
     }
+    
 }
