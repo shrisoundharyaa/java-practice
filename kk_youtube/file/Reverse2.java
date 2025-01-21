@@ -9,7 +9,7 @@ public class Reverse2 {
 
     }
      static void reverse2(int[] arr1){
-           int start =0;
+           int start = 0;
            int end = arr1.length - 1;
            while(start < end){
             swap(arr1,start,end);
