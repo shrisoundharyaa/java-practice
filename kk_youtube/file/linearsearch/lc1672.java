@@ -1,6 +1,6 @@
 package kk_youtube.file.linearsearch;
 //https://leetcode.com/problems/richest-customer-wealth/
-public class RichestCustomerWealth1672 {
+ class RichestCustomerWealth1672 {
     
 }
 // class Solution {
