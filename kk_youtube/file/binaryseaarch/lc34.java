@@ -12,7 +12,7 @@ class Solution {
         ans[1] = end;
         return ans;
     }
-    public  int search(int[] nums, int t,boolean findindexstart){
+     int search(int[] nums, int t,boolean findindexstart){
         int ans = -1;
         int start = 0;
         int end = nums.length - 1;
