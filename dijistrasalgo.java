@@ -40,7 +40,8 @@ public class dijistrasalgo {
 
      }
     
-
+     int source = in.nextInt();
+     dijstraAlgo(outer,source,V);
 
      in.close();
 
@@ -52,26 +53,32 @@ public class dijistrasalgo {
         this.y=y;
     }
   }
-  static  void algo(Lis<List<Integer>> outer,int source,int V){
+  static void dijstraAlgo(List<List<Edge>> outer, int source, int V){
     int[] distance = new int[V];
     Arrays.fill(distance,Integer.MAX_VALUE);
-    distance[source]  = 0;
+    distance[source] = 0;
     Queue<int[]> q = new ArrayDeque<>();
-    int  arr[] = {source,0};
+    int[] arr  = {source,0};
     q.add(arr);
     while(!q.isEmpty()){
-        int a = q.peek()[];
-        int b = q.peek()[1];
+        int next_vertex = q.peek()[0]; //vertex
+        int prev_weight = q.peek()[1]; //weight
         q.poll();
-        //traverse object we use for each loop
-        for(Edge e : outer.get(a)){
-            int vertex = e.x;
-            int weightt = e.y;
-            
+        //Traverse the object
+        for(Edge e:outer.get(next_vertex)){
+            int curr_vertex = e.x;
+            int curr_weight = e.y;
+            if(distance[curr_vertex]>curr_weight+prev_weight){
+                distance[curr_vertex] = curr_weight+prev_weight;
+                int temp[] = {curr_vertex,distance[curr_vertex]};
+                q.add(temp);
+            }
         }
-
     }
-  }
+    
+    System.out.print(Arrays.toString(distance));
+
+}
   
 
 
