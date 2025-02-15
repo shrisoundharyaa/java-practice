@@ -1,3 +1,4 @@
+import java.util.*;
 class Solution {
     public List<Integer> findDuplicates(int[] arr) {
         int i=0;
