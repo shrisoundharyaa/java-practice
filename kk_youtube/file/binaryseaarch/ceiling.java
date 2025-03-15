@@ -28,3 +28,28 @@ public class ceiling {
         return start;
     }
 }
+
+//for dupilacate present meand wee need to last occurance
+class Solution {
+    static int findFloor(int[] arr, int x) {
+        int start = 0;
+        int end = arr.length - 1;
+        int res = -1;
+        while(start <= end){
+            int mid = start + (end - start) / 2;
+            if(x == arr[mid]) {
+                res = mid;
+                start = mid + 1;
+            }
+            else if(x > arr[mid]){
+                
+                start = mid + 1;
+            }
+            else{
+              res= mid;
+               end = mid - 1;
+            }
+        }
+        return res;
+    }
+}
