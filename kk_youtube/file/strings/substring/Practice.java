@@ -41,7 +41,7 @@ public class Practice {
         
         else return up.charAt(0) + skipapple(up.substring(1));
     }
-
+//skiping a string
     static String skipappNotapple(String up){
         if(up.isEmpty()){
             return " ";
