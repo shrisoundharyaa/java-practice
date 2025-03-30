@@ -1,4 +1,4 @@
-package kk_youtube.file.math;
+package kk_youtube.file.bit_manipilation;
 // https://www.geeksforgeeks.org/problems/swap-two-numbers3844/1
 import java.util.*;
 public class Swaptwonumbers {

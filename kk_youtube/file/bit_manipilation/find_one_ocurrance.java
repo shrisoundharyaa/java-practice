@@ -1,4 +1,4 @@
-package kk_youtube.file.math;
+package kk_youtube.file.bit_manipilation;
 import java.util.*;
 
 public class find_one_ocurrance {

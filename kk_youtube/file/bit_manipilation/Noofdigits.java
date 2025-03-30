@@ -1,4 +1,4 @@
-package kk_youtube.file.math;
+package kk_youtube.file.bit_manipilation;
 import java.util.*;
 public class Noofdigits {
     public static void main(String[] args){

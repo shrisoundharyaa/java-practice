@@ -1,4 +1,4 @@
-package kk_youtube.file.math;
+package kk_youtube.file.bit_manipilation;
 //https://leetcode.com/problems/divide-two-integers/
 public class LC249 {
     
